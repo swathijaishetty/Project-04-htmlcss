@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins";
+  
+  }
+
+nav{
+    padding:20px 30px;
+    display: flex;
+    justify-content:flex-start;
+    
+}
+.navbar-container>div>img{
+    margin-top: 20px;
+}
+.grow-list{
+    margin-top: 30px;
+}
+
+.list-item{
+   display: inline-block;
+   margin: 0 30px;
+}
+.navbar-container div img{
+    height:auto;
+    width:140px;
+}
+.banner-container>div{
+    margin-left: 70px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+}
+.heading-text{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+h1{
+    font-size: 70px;
+    color:#03203C;
+}
+span{
+    color:#383CC1;
+}
+p{
+    margin-left: 50px;
+    margin-top: -40px;
+    font-size: 18px;
+    width:470px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav-button{
+    height:50px;
+    width:200px;
+    background-color:#383CC1 ;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.button-group{
+    position: absolute;
+    right: 120px;
+    top:50px;
+
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.list{
+    color:grey;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.grow-list .list li:first-child{
+    color: black;
+}
+.description{
+    margin-top: 30px;
+}
+
+.banner-container div+div>img{
+    height:500px;
+    position:absolute;
+    right:0px;
+    bottom:10px;
+}
